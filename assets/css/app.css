@@ -200,3 +200,35 @@ section{
 #hero h1{
     color: white;
 }
+@keyframes scrolltodown{
+    0%{
+        transform: translateY(30%);
+        opacity: 0;
+
+    }
+    50%{
+        transform: translateY(-30%);
+        opacity: 1;
+
+    }
+    100%{
+        transform: translateY(60%);
+        opacity: 0;
+    }
+}
+.scroll-to-down{
+    width: 30px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    font-size: 24px;
+    color: white;
+    border: 2px solid rgb(255, 255,255);
+    border-radius: 100px;
+    position: absolute;
+    bottom: 48px;
+    left: 50%;
+}
+.scroll-to-down .las{
+animation: scrolltodown 2s ease infinite;
+}
