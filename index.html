@@ -5,38 +5,244 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Landing Page</title>
     <!-- line Awsome -->
-    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/app.css" />
   </head>
   <body>
-     <!-- Navigation Bar -->
-      <div class="navbar">
-        <div class="container">
-            <a href="#" class="brand">Upwork.</a>
-            <ul class="nav-links">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="hamburger ">
-                <span></span>
-                <span></span>
-            </div>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+      <div class="container">
+        <a href="#" class="brand">Upwork.</a>
+        <ul class="nav-links">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
         </div>
       </div>
-<!-- Hero Section -->
- <div id="hero">
-    <div class="container">
+    </div>
+    <!-- Hero Section -->
+    <div id="hero">
+      <div class="container">
         <h1 class="heading-xl"><span id="hero-titles"></span></h1>
         <a href="#" class="scroll-to-down"><i class="las la-arrow-down"></i></a>
+      </div>
     </div>
- </div>
+    <!-- //Hero Section -->
 
+    <!-- Services -->
 
- <!-- typed.js -->
- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <section id="services">
+      <div class="container">
+        <div class="section-intro">
+          <h1 class="heading-2">Our Services</h1>
+        </div>
+        <div class="grid three-col-grid">
+          <div class="service">
+            <div class="icon"><i class="las la-tools"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+          <div class="service">
+            <div class="icon"><i class="las la-podcast"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+          <div class="service">
+            <div class="icon"><i class="las la-tools"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+          <div class="service">
+            <div class="icon"><i class="las la-podcast"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+          <div class="service">
+            <div class="icon"><i class="las la-tools"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+          <div class="service">
+            <div class="icon"><i class="las la-tools"></i></div>
+            <h3 class="heading-3">Service Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              voluptatem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Services -->
+
+    <!-- Portfolio Section -->
+    <section id="work">
+      <div class="container">
+        <div class="section-intro">
+          <h1 class="heading-2">Our Recent Work</h1>
+        </div>
+        <a href="#" class="grid two-col-grid">
+          <div class="project">
+            <img src="./assets/images/project-1.jpg" alt="" />
+            <div class="overlay">
+              <div>
+                <h2 class="heading-2">Project Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing accusamus
+                  officiis aut error fugiat sequi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./assets/images/project-2.jpeg" alt="" />
+            <div class="overlay">
+              <div>
+                <h2 class="heading-2">Project Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing accusamus
+                  officiis aut error fugiat sequi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="./assets/images/project-1.jpg" alt="" />
+            <div class="overlay">
+              <div>
+                <h2 class="heading-2">Project Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing accusamus
+                  officiis aut error fugiat sequi.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="./assets/images/project-2.jpeg" alt="" />
+            <div class="overlay">
+              <div>
+                <h2 class="heading-2">Project Title</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing accusamus
+                  officiis aut error fugiat sequi.
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- // Portfolio Section -->
+
+    <!-- Blog -->
+    <section id="blog">
+      <div class="container">
+        <div class="section-intro">
+          <h1 class="heading-2">Our Blogs</h1>
+        </div>
+        <div class="grid three-col-grid">
+          <div class="blog-post">
+            <img src="./assets/images/blog-post-1.jpg" alt="">
+            <h3><a href="#">Blog post Title</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit sed soluta odio quisquam quae laboriosam itaque animi est nihil? Dolore quasi iusto, quia ex labore sapiente id veniam sint.</p>
+          </div>
+          <div class="blog-post">
+            <img src="./assets/images/blog-post-2.jpg" alt="">
+            <h3><a href="#">Blog post Title</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit sed soluta odio quisquam quae laboriosam itaque animi est nihil? Dolore quasi iusto, quia ex labore sapiente id veniam sint.</p>
+          </div>
+          <div class="blog-post">
+            <img src="./assets/images/blog-post-3.jpg" alt="">
+            <h3><a href="#">Blog post Title</a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit suscipit sed soluta odio quisquam quae laboriosam itaque animi est nihil? Dolore quasi iusto, quia ex labore sapiente id veniam sint.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Blog -->
+
+    <!-- Contact US  -->
+     <section id="contact">
+      <div class="container">
+        <div class="grid">
+          <div class="contact-info">
+            <div class="section-intro">
+              <h1 class="heading-2">Contact Us</h1>
+            </div>
+            <div class="contact-widget">
+              <h3 class="heading-3">Email</h3>
+              <ul>
+                <li>ratnamala15795@gmail.com</li>
+                <li>ratnamala15795@gmail.com</li>
+              </ul>
+            </div>
+            <div class="contact-widget">
+              <h3 class="heading-3">Phone</h3>
+              <ul>
+                <li>+91- 7559379886</li>
+                <li>+91- 9075193781</li>
+              </ul>
+            </div>
+            <div class="contact-widget">
+              <h3 class="heading-3">Location</h3>
+              <ul>
+                <li> B-402, Shree Swami Sadan Society , katraj , pune</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-form">
+            <div class="section-intro">
+              <h1 class="heading-2">Drop Us A Line</h1>
+            </div>
+            <form action="#">
+              <div class="form-group">
+                <input type="text" class="form-input" placeholder="Ratnamala Kante">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-input" placeholder="ratnamala15795@gmail.com">
+              </div>
+              <div class="form-group">
+                <textarea name="" class="form-input" rows="4" placeholder="hi there...."></textarea>
+              </div>
+              <div class="form-group">
+                <button class="btn">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+     </section>
+    <!--// Contact US  -->
+
+    <!-- typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>
