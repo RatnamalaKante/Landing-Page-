@@ -334,5 +334,10 @@ form{
     padding: 16px 0;
     border-radius: 0;
     /* border: none; */
-    font-family: var(--c-dark);
+    font-family: var(--f-base);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.form-group .form-input{
+    outline: none;
+
 }
